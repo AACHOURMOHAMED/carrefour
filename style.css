@@ -147,7 +147,7 @@ body{
 
 .textTemo{
     max-width: 350px;
-    margin: 0 auto;
+    margin: 40px auto;
 }
 
 .temp{
@@ -208,19 +208,21 @@ body{
 /*gallery section*/
 .contentGallery{
     display: flex;
-
+  
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
   
 }
 
-
+.contentGallery a{
+    margin: 0 auto;
+}
 .imageGall{
     max-width: 350px;
     height: 370px;
-    margin-bottom: 15px;
-    margin: 0 auto;
+    
+    margin: 20px auto;
     
     text-align: center;
 }
